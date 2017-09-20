@@ -2,6 +2,16 @@ body{
 	background-color:#50aaff;
 }
 
+h1{
+	background-color: #78bfa7;
+	width: 100%;
+	margin: 0 auto;
+}
+
+img{
+	border-style: none;
+}
+
 #container{
     width: 95%;
     background-color: #ffc99b;
@@ -29,11 +39,12 @@ body{
 	display:block;
     color: #ffffff;
     background-color: #bf89b7;
-    font-weight: bold;
+		width: 25%;
+		font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Merriweather", Georgia, "Times New Roman",serif;
 }
 
 #nav a:hover, a:active {
