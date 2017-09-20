@@ -13,3 +13,10 @@
   padding: 0;
   list-style-type: none;
 }
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+}
