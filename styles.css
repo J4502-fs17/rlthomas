@@ -29,7 +29,7 @@ img{
 }
 
 #nav li {
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 0;
   border-style: none;
 	text-decoration: none;
@@ -40,6 +40,7 @@ img{
     color: #ffffff;
     background-color: #bf89b7;
 		width: 25%;
+		margin: 0 auto; 
 		font-weight: bold;
     text-align:center;
     text-decoration: none;
