@@ -31,8 +31,7 @@ img{
 #nav li {
     margin: 0 auto;
     padding: 0;
-		border-style: solid #ccc;
-		border-width: 25%;
+		border-style: none;
 	text-decoration: none;
 }
 
