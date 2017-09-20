@@ -9,6 +9,14 @@ h1{
 	font-family: 'Josefin Slab', Georgia, "Times New Roman", serif;
 }
 
+h4{
+	font-style: italic;
+}
+
+p{
+	font-family: 'Lora', Georgia, "Times New Roman", serif;
+}
+
 img{
 	border-style: none;
 }
