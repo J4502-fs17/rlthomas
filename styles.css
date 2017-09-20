@@ -29,9 +29,9 @@ img{
 }
 
 #nav li {
-    margin: 0;
+    margin: 0 auto; 
     padding: 0;
-  border-style: none; 
+  border-style: none;
 	text-decoration: none;
 }
 
