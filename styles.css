@@ -36,23 +36,23 @@ img{
     text-align:center;
 }
 
-#nav {
+.nav {
   text-align:center;
 }
 
-#nav li {
+.nav li {
   padding: 0;
   list-style-type: none;
 }
 
-#nav li {
+.nav li {
     margin: 0 auto;
     padding: 0;
 		border-style: none;
 	text-decoration: none;
 }
 
-#nav a:link, a:visited {
+.nav a:link, a:visited {
 	display:block;
     color: #ffffff;
     background-color: #bf89b7;
@@ -65,7 +65,7 @@ img{
     font-family: "Merriweather", Georgia, "Times New Roman",serif;
 }
 
-#nav a:hover, a:active {
+.nav a:hover, a:active {
     background-color: #72065e;
 }
 
