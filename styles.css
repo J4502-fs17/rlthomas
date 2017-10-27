@@ -36,33 +36,6 @@ img{
     text-align:center;
 }
 
-.nav{
-	display: flex;
-	flex-direction: column;
-	flex-flow: column wrap;
-	justify-content: center;
-	justify-content: space-around;
-	justify-content: space-between;
-}
-
-
-@media (min-width: 800px) {
-
-.nav {
-	flex-direction:row;
-	align-items: flex-start;
-	flex-wrap: wrap;
-}
-}
-
-image {
-    display: block;
-}
-@media screen and (min-width:800px) {
-    img {
-    float:left;
-    }
-}
 
 
 .nav {
@@ -82,11 +55,11 @@ image {
 }
 
 .nav a:link, a:visited {
-	display:block;
+	display:grid;
     color: #ffffff;
     background-color: #bf89b7;
-		width: 50%;
 		margin: 0 auto;
+		width: 50%;
 		font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -105,4 +78,40 @@ image {
 		font-weight: bold;
 		border-top: 1px solid black;
 		background-color: #bfbfbf;
+}
+
+.nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+.nav {
+	flex-direction: row;
+	align-items:flex-start;
+	flex-wrap: wrap;
+  }
+}
+
+image {
+    display: block;
+}
+@media screen and (min-width:800px) {
+    img {
+    float:left;
+    }
+}
+
+.nav a:link, a:visited {
+	display:block;
+    color: #ffffff;
+    background-color: #bf89b7;
+		margin: 0 auto;
+		width: 100%;
+		font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Merriweather", Georgia, "Times New Roman",serif;
 }
