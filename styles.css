@@ -1,3 +1,19 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+article {
+  margin-bottom: 0.7em;
+  border-bottom: 1px solid #ccc;
+}
+
+article:last-of-type {
+  border-bottom: none;
+}
+
 body{
 	background-color:#50aaff;
 	background-image:url(galaxy.jpg);
@@ -101,17 +117,63 @@ image {
     img {
     float:left;
     }
-}
+
 
 .nav a:link, a:visited {
 	display:block;
     color: #ffffff;
     background-color: #bf89b7;
 		margin: 0 auto;
-		width: 100%;
+		width: 90%;
 		font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
     font-family: "Merriweather", Georgia, "Times New Roman",serif;
+}
+}
+
+
+@media screen and (min-width:1000px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b"
+				"c c d"
+				"e e e";
+  }
+
+
+.section1 {
+	grid-area: a;
+}
+
+.section2 {
+	grid-area: c;
+}
+
+.section3 {
+	grid-area: e;
+}
+
+.image{
+	grid-area: d;
+}
+
+.plant {
+	grid-area: b;
+}
+}
+@media screen and (min-width:1200px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b b"
+        "c c c c"
+        ". d d .";
+  }
 }
