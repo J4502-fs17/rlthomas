@@ -12,16 +12,15 @@ body{
 	background-image:url(galaxy.jpg);
 }
 
-h1{
+/*h1{
 	background-color: #78bfa7;
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
-	font-family: 'Josefin Slab', Georgia, "Times New Roman", serif;
 }
 
 h4{
 	font-style: italic;
-}
+}*/
 
 p{
 	font-family: 'Lora', Georgia, "Times New Roman", serif;
@@ -72,6 +71,7 @@ nav a{
 header h1{
   order:2;
   color:white;
+  font-family: 'Josefin Slab', Georgia, "Times New Roman", serif;
 }
 
 nav ul{
