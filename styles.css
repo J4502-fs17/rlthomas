@@ -56,14 +56,12 @@ header{
 nav ul li{
   display: block;
   border-top:1px #79896D solid;
-    list-style-type: none;
 }
 
 nav a{
   color:#F8ECC2;
   display: block;
   text-decoration: none;
-  list-style-type: none;
   padding:20px 30px;
 }
 
@@ -78,7 +76,6 @@ header h1{
 
 nav ul{
   display: none;
-    list-style-type: none;
 }
 
 /*.nav {
